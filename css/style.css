@@ -2,7 +2,7 @@ body {
 	margin: 0;
 	padding: 0;
 
-	font-family: "PTSans Narrow", Arial, sans-serif;
+	font-family: "PTSans Narrow", "Arial", sans-serif;
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 700;
@@ -363,3 +363,241 @@ a {
 	color: #f7f4f1;
 	font-weight: bold;
  }*/
+ .container {
+ 	width: 940px;
+ 	margin: 0 auto;
+ 	padding: 0 10px;
+ }
+ .main-header {
+ 	margin-bottom: 75px;
+ 	min-height: 285px;
+ }
+
+ .inner-page .main-header {
+ 	margin-bottom: 50px;
+
+ 	background-color: #000000;
+/*временно для сетки
+ min-height: 70px;*/
+ }
+ .inner-page .main-navigation {
+ 	align-items: flex-start;
+ 	flex-direction: row;
+ /*временно для сетки
+ min-height: 70px;
+ background-color: transparet;*/
+ }
+ .main-navigation {
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+
+/*временно для сетки
+ 	min-height: 285px;
+ 	background-color: transparent;*/
+ }
+ .main-header-logo {
+ 	order: 2;
+ 	width: 368px;
+ 	height: 153px;
+
+/*временно для сетки
+ 	display: block;*/
+ }
+
+.inner-page .main-header-logo {
+	order: 0;
+
+	width: 111px;
+	height: 24px;
+	padding: 23px 20px;
+}
+ .main-navigation-wrapper {
+ 	width: 100%;
+ 	margin-bottom: 60px;
+
+ 	background-color: #000000;
+
+/*временно для сетки
+ 	min-height: 70px;
+ 	background-color: transparent;*/
+ }
+ .main-navigation-wrapper .container {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .site-navigation {
+ 	width: 620px;
+ 	margin: 0;
+ 	padding: 0;
+
+ 	list-style: none;
+
+/*временно для сетки
+ 	min-height: 70px;*/
+ }
+.user-navigation {
+	width: 140px;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+/*временно для сетки
+	min-height: 70px;*/
+}
+.inner-page .user-navigation {
+	margin-left: auto;
+}
+.features {
+	margin-bottom: 80px;
+}
+.features-list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+/*временно для сетки
+	min-height: 170px;*/
+}
+.feature-item {
+	width: 300px;
+
+/*временно для сетки
+	min-height: 170px;*/
+}
+.index-columns {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 80px;
+	margin-bottom: 35px;
+/*временно для сетки
+	background-image: none;
+	background-color: transparent;*/
+}
+.news {
+	width: 380px;
+/*временно для сетки
+	min-height: 315px;*/
+}
+.gallery {
+	width: 300px;
+/*временно для сетки
+	min-height: 315px;*/
+}
+.contacts {
+	width: 380px;
+/*временно для сетки
+	min-height: 295px;*/
+}
+.appointment {
+	width: 300px;
+/*временно для сетки
+	min-height: 340px;*/
+}
+.page-title {
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 0;
+/*временно для сетки
+min-height: 42px;*/
+}
+.breadcrums {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 50px;
+/*временно для сетки
+	min-height: 24px;*/
+}
+.catalog-columns {
+	display: flex;
+	justify-content: space-between;
+}
+.catalog-item {
+	width: 220px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+
+/*временно для сетки
+	min-height: 285px;
+	background-color: transparent;
+	box-shadow: inset 0 0 0 2px purple;*/
+}
+.catalog-item:nth-child(3n) {
+	margin-right: 0;
+}
+.pagination-list {
+	padding: 0;
+	margin: 0;
+
+	list-style: none;
+
+/*временно для сетки
+	min-height: 47px;*/
+}
+.product-photos {
+	width: 460px;
+/*временно для сетки
+	min-height: 677px;*/
+}
+.product-info {
+	width: 390px;
+/*временно для сетки
+	min-height: 667px;*/
+}
+.catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 25px;
+
+	list-style: none;
+}
+.filters {
+	width: 180px;
+/*временно для сетки
+	min-height: 687px;*/
+}
+.catalog {
+	width: 700px;
+/*временно для сетки
+	min-height: 687px;*/
+}
+.main-footer {
+	padding: 60px 0;
+	margin-top: 65px;
+
+/*временно для сетки
+	background: none;
+	min-height: 180px;*/
+}
+.inner-page .main-footer {
+	margin-top: 45px;
+}
+.main-footer .container {
+	display: flex;
+}
+.footer-contacts {
+	width: 320px;
+	margin: 0;
+	margin-right: 80px;
+/*временно для сетки
+	min-height: 100px;*/
+}
+.footer-social {
+	width: 145px;
+/*временно для сетки
+	min-height: 100px;*/
+}
+.footer-copyright {
+	width: 150px;
+	margin: 0;
+	margin-left: auto;
+
+/*временно для сетки
+	min-height: 100px;*/
+}
